@@ -1,12 +1,12 @@
 import React from "react";
 import 'bulma/css/bulma.css';
-import Header from "./Header";
+
 
 
 function App() {
     return(
-        <div>
-            <Header/>
+        <div className="App">
+          
         </div>
     );
 }

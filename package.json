@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api-camisetas": "json-server --watch ./db.json --port 3001"
+    "api-camisetas": "json-server --watch ./db.json --port 3002"
     
 
 

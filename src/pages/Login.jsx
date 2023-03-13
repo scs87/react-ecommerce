@@ -17,7 +17,7 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (formEmail === 'assembler@gmail.com' && formPass === '123') {
+    if (formEmail === 'scsanz87@gmail.com' && formPass === '123') {
       updateUserData({
         email: formEmail,
       });
@@ -41,12 +41,12 @@ function Login() {
   };
 
   return (
-    <div>
-      <h1>Welcome</h1>
+    <div className='Login2'>
+     
 
       <form
         onSubmit={(e) => handleLogin(e)}
-        style={{ display: 'flex', flexDirection: 'column' }}
+        style={{ display: 'flex', flexDirection: 'center', color: 'lightblue' }}
       >
         <label htmlFor="email">Email</label>
         <input

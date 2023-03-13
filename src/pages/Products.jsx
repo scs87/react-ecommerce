@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ProductItem } from "../components/ProductItem/ProductItem";
 
 
+
 export const Products = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -10,13 +11,13 @@ export const Products = () => {
   useEffect(() => {
     const getData = async () => {
       setIsLoading(true);
-      const res = await fetch("http://localhost:3000/products");
+      const res = await fetch("http://localhost:3002/products");
       const data = await res.json();
       setProducts(data);
       setIsLoading(false);
     };
     getData();
-  }, []);
+  }, [products]);
 
   return (
     <div>
