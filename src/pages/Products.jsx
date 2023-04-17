@@ -17,7 +17,7 @@ export const Products = () => {
       setIsLoading(false);
     };
     getData();
-  }, [products]);
+  }, []);
 
   return (
     <div>
