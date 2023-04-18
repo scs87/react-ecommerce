@@ -8,9 +8,13 @@ const Header = () => {
         <nav>
         <div className="nav-wrapper light-blue darken-2">
          <img alt="#!" src={Logo} className="logostyle" />
-         <div src={fondo} className="fondoback">
+        
+            <body>
+            <div src={fondo} className="fondoback">
+            </div>
+            </body>
 
-         </div>
+         
 
 
 
